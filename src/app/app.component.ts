@@ -8,6 +8,7 @@ import { delay, timeInterval } from 'rxjs';
 })
 export class AppComponent {
   title = 'Helloworld';
+  imgUrl = "../assets/BL_logo.jpg"
   
   ngOnInit(): void{
     this.title = "Hello From Bridgelabz.";
