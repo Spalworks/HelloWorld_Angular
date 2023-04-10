@@ -7,9 +7,10 @@ import { delay, timeInterval } from 'rxjs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Helloworld';
+  title = 'Hello {{this.username}} !! Welcome to Bridgelabz.';
   imgUrl = "../assets/BL_logo.jpg"
   url = "https://www.bridgelabz.com/"
+  userName: String = ""
   
   ngOnInit(): void{
     this.title = "Hello From Bridgelabz.";
